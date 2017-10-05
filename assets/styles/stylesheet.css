@@ -63,7 +63,6 @@ li{
   margin-top: 10rem;
   display: inline-block;
   margin-right: -2rem;
-
 }
 
 #whitebox span{
@@ -71,5 +70,35 @@ li{
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
+}
 
+#Characteristics{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+.Symbol{
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Symbol img{
+  width: 3.5rem;
+}
+
+span{
+  color: black;
+  text-align: center;
+}
+
+#Information{
+  display: flex;
+  
 }
