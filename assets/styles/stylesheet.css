@@ -52,10 +52,18 @@ li{
   margin: 0 2rem;
 }
 
+.flex-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
 #whitebox{
   padding: 1.5rem 5rem;
   background-color: white;
   margin-top: 10rem;
+  display: inline-block;
+  margin-right: -2rem;
+
 }
 
 #whitebox span{
@@ -63,4 +71,5 @@ li{
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
+
 }
