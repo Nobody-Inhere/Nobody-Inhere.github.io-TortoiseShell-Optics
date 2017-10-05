@@ -2,3 +2,20 @@ body{
   font-size: 18px;
   line-height: 1.4;
 }
+
+#MainContent{
+  height: 30rem;
+  background-image: url("../img/glasses-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.header{
+  background-color: cadetblue;
+}
+
+.container{
+  max-width: 960px;
+}
