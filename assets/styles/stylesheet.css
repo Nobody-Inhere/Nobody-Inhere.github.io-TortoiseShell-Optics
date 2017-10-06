@@ -152,7 +152,7 @@ span{
     font-size: 1.33rem;
   }
 
-@media only screen and (max-width: 470px){
+@media only screen and (max-width: 600px){
 
 #MainContent{
     background-position: 20%;
@@ -181,7 +181,8 @@ span{
     height: auto;
     margin: 0.77rem;
     text-align: center;
-    
+    font-size: .77rem;
+
   }
 
   #Characteristics{
@@ -189,6 +190,8 @@ span{
     flex-direction: column;
     justify-content: center;
     display: block;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .title{
