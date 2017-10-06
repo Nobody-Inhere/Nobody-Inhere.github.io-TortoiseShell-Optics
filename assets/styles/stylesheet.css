@@ -188,15 +188,19 @@ span{
   #Characteristics{
     margin-top: 3rem;
     flex-direction: column;
-    justify-content: center;
-    display: block;
     justify-content: flex-start;
     align-items: center;
   }
 
-  .title{
+  .info{
+    width: auto;
+  }
+
+  .info .title{
     width: 100%;
     margin-bottom: 1rem;
+    max-width: 100%;
+    text-align: center;
   }
 
   .info p{
@@ -206,6 +210,9 @@ span{
 
   #Information{
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
   }
 
   #footer span{
