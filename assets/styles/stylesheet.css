@@ -100,5 +100,34 @@ span{
 
 #Information{
   display: flex;
-  
+  color: black;
+  justify-content: center
+}
+
+.info{
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.title{
+  background-color: cadetblue;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+}
+
+#footer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: azure;
+}
+
+#footer img{
+  padding: 4rem 1rem 4rem 4rem;
+  height: 1.5rem;
 }
