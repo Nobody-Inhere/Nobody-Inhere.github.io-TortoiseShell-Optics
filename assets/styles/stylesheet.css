@@ -52,6 +52,10 @@ li{
   margin: 0 2rem;
 }
 
+nav .smallMenu{
+display: none;
+}
+
 .flex-container{
   display: flex;
   justify-content: flex-end;
@@ -130,4 +134,80 @@ span{
 #footer img{
   padding: 4rem 1rem 4rem 4rem;
   height: 1.5rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+
+  #MainContent{
+    height: 22rem;
+  }
+
+  #whitebox{
+    padding: 0.75rem 4rem;
+    background-color: white;
+    margin-top: 5rem;
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+  }
+
+@media only screen and (max-width: 470px){
+
+#MainContent{
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .LogoInfo span{
+    display: none;
+  }
+
+
+  #whitebox{
+    padding: 1rem;
+    margin: 9rem auto 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    width: 100%
+  }
+
+  .Symbol span{
+    font-size: 0.77rem;
+    margin-bottom: 1.54rem;
+  }
+
+  #Characteristics{
+    margin-top: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    display: block;
+  }
+
+  .title{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .info p{
+    font-size: 0.77rem;
+    margin-bottom: 4rem;
+  }
+
+  #Information{
+    flex-direction: column;
+  }
+
+  #footer span{
+    display: none;
+  }
+
+  nav ul{
+    display: none;
+  }
+
+  nav .smallMenu{
+  display: block;
+  }
+
 }
